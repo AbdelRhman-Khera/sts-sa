@@ -23,7 +23,23 @@ class HomeController extends Controller
      */
     public function index()
     {
-        return view('under');
+        return view('temp.index');
+    }
+    public function about()
+    {
+        return view('temp.about');
+    }
+    public function service()
+    {
+        return view('temp.service');
+    }
+    public function faq()
+    {
+        return view('temp.faq');
+    }
+    public function contact()
+    {
+        return view('temp.contact');
     }
     public function dashboard()
     {
